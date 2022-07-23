@@ -11136,6 +11136,7 @@ void main() {
     expect(scrollController.offset.roundToDouble(), 0.0);
   });
 
+<<<<<<< HEAD
   testWidgets('Should not scroll on paste if caret already visible', (WidgetTester tester) async {
     // Regression test for https://github.com/flutter/flutter/issues/96658.
     final ScrollController scrollController = ScrollController();
@@ -11180,6 +11181,8 @@ void main() {
     expect(scrollController.offset, 0.0);
   });
 
+=======
+>>>>>>> 310100d7647f4a5e19f6c85326e7b175e457c5c4
   testWidgets('Autofill enabled by default', (WidgetTester tester) async {
     final FocusNode focusNode = FocusNode();
     await tester.pumpWidget(
@@ -11226,6 +11229,7 @@ void main() {
       isNot(contains(matchesMethodCall('TextInput.requestAutofill'))),
     );
   });
+<<<<<<< HEAD
 
   group('TextEditingHistory', () {
     Future<void> sendUndoRedo(WidgetTester tester, [bool redo = false]) {
@@ -11951,6 +11955,8 @@ void main() {
     expect(tester.takeException(), null);
   // On web, the text selection toolbar cut button is handled by the browser.
   }, skip: kIsWeb); // [intended]
+=======
+>>>>>>> 310100d7647f4a5e19f6c85326e7b175e457c5c4
 }
 
 class UnsettableController extends TextEditingController {

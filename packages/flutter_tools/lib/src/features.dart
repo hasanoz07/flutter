@@ -137,6 +137,13 @@ const Feature flutterWindowsDesktopFeature = Feature(
   master: FeatureChannelSetting(
     available: true,
     enabledByDefault: true,
+<<<<<<< HEAD
+=======
+  ),
+  dev: FeatureChannelSetting(
+    available: true,
+    enabledByDefault: true,
+>>>>>>> 310100d7647f4a5e19f6c85326e7b175e457c5c4
   ),
   beta: FeatureChannelSetting(
     available: true,
